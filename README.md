@@ -22,3 +22,9 @@
 
 5. 一切准备就绪，开始编程吧！
 
+## 2025/3/6
+
+### Github提交签名验证
+
+- 参考[Github官方文档](https://docs.github.com/zh/authentication/managing-commit-signature-verification/about-commit-signature-verification)即可
+
