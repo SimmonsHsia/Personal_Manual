@@ -13,8 +13,8 @@
     - [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
     - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
-3. 使用MYSY2安装MinGW-w64编译器：
-    - 下载并安装[MYSY2](https://www.msys2.org/)
+3. 使用MSYS2安装MinGW-w64编译器：
+    - 下载并安装[MSYS2](https://www.msys2.org/)
     - 打开UCRT64并重复执行 `pacman -Suy` 直到提示所有软件包都是最新
     - 最后执行 `pacman -S mingw-w64-ucrt-x86_64-toolchain` 系统提示选择一项时按`Enter`接受所有安装包
 
