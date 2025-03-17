@@ -16,9 +16,9 @@
 3. 使用MYSY2安装MinGW-w64编译器：
     - 下载并安装[MYSY2](https://www.msys2.org/)
     - 打开UCRT64并重复执行 `pacman -Suy` 直到提示所有软件包都是最新
-    - 最后执行 `pacman -S mingw-w64-ucrt-x86_64-toolchain` 系统提示选择一项时输入Y接受所有安装包
+    - 最后执行 `pacman -S mingw-w64-ucrt-x86_64-toolchain` 系统提示选择一项时按`Enter`接受所有安装包
 
-4. 在环境变量的用户变量`Path`中新建编译器路径`*\msys64\ucrt64\bin`
+4. 在环境变量的用户变量`Path`中新建路径：`*\msys64\ucrt64\bin`
 
 5. 一切准备就绪，开始编程吧！
 
