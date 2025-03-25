@@ -28,3 +28,29 @@
 
 - 参考[Github官方文档](https://docs.github.com/zh/authentication/managing-commit-signature-verification/about-commit-signature-verification)即可
 
+## 2025/3/25
+
+### 解决 git push/pull 网络问题
+
+1. 打开 `git bash` 终端，输入以下命令取消原来的代理恢复默认：
+
+    ```
+    git config --global --unset http.proxy
+
+    git config --global --unset https.proxy
+    ```
+
+2. 第二步设置代理：
+    ```
+    git config --global https.proxy https://127.0.0.1:7897
+
+    git config --global http.proxy http://127.0.0.1:7897
+    ```
+
+    ![git bash终端命令](/set%20proxy.png)
+
+    设置完成后可通过 `git config --global https.proxy` 查看代理设置
+    
+    其中，`https://127.0.0.1` 和 `http://127.0.0.1` 是代理IP地址，冒号后面的 `7897` 是端口。这两项根据自己的电脑设置确定，可以在 `设置-网络和Internet-代理` 的手动设置代理中找到。
+
+    ![win11代理设置](/win11%20proxy.png)
